@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Registrarse</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/chuntarostyle.css">
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery-3.2.0.js"></script>
+	</head>
+	<body>
+		<!--usuario,contra,nombre,ap_mat,ap_pat y edad-->
+		<form action="registrousuario.php" method="POST">
+			<div class="form-group col-xs-4">
+				<label for="usr">Usuario:</label>
+				<input type="text" class="form-control" id="usr" name="usuario">
+			</div>
+			<div class="form-group col-xs-4">
+				<label for="pwd">Contraseña:</label>
+				<input type="password" class="form-control" id="pwd" name="contra">
+			</div>
+			<div class="form-group col-xs-4">
+				<label for="pwd">Nombre:</label>
+				<input type="text" class="form-control" id="name" name="nombre">
+			</div>
+			<div class="form-group col-xs-4">
+				<label for="pwd">Apellido paterno:</label>
+				<input type="text" class="form-control" id="father" name="ap_pat">
+			</div>
+			<div class="form-group col-xs-4">
+				<label for="pwd">Apellido materno:</label>
+				<input type="text" class="form-control" id="mother" name="ap_mat">
+			</div>
+			<div class="form-group col-xs-2">
+				<label for="pwd">Edad:</label>
+				<input type="text" class="form-control" id="age" name="edad">
+			</div>
+			<div class="col-xs-4 col-md-4"></div>
+			<div class="col-xs-4 col-md-4"></div>
+			<div class="col-xs-4 col-md-4">
+				<a href="index.html" class="btn btn-warning" role="button">Cancelar</a>
+			<input type="submit" name="submit" class="btn btn-info" value="Registrarse">
+			</div>
+
+		</form>
+
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+			<span class="sr-only">Footer</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><span class=" glyphicon glyphicon-user"></span> Contacto</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			<ul class="nav navbar-nav">
+				<li><a href="https://www.facebook.com/netosaurio1014">Facebook</a></li>
+				<li><a href="https://twitter.com/tiendaNeto?lang=es">Twitter</a></li>
+				<li><a href="https://github.com/netosaurio11">GitHub</a></li>
+				<li><a href="https://www.instagram.com/netosaurio11/">Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+	</body>
+</html>
